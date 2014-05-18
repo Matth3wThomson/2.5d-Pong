@@ -1,0 +1,24 @@
+﻿Build started 06/05/2014 20:11:22.
+     1>Project "D:\Documents\DropBox\Dropbox\University Work\Year 3\CSC3224 Games Development\Matt Thomson GameDev\nclgl\nclgl.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\nclgl.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\Documents\DropBox\Dropbox\University Work\Year 3\CSC3224 Games Development\Matt Thomson GameDev\GameDev\Debug\nclgl.lib" /NOLOGO Debug\GameTimer.obj
+         Debug\Keyboard.obj
+         Debug\Matrix3.obj
+         Debug\Matrix4.obj
+         Debug\Mouse.obj
+         Debug\OGLRenderer.obj
+         Debug\Quaternion.obj
+         Debug\Window.obj
+         nclgl.vcxproj -> D:\Documents\DropBox\Dropbox\University Work\Year 3\CSC3224 Games Development\Matt Thomson GameDev\GameDev\Debug\nclgl.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\nclgl.unsuccessfulbuild".
+         Touching "Debug\nclgl.lastbuildstate".
+     1>Done Building Project "D:\Documents\DropBox\Dropbox\University Work\Year 3\CSC3224 Games Development\Matt Thomson GameDev\nclgl\nclgl.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.07
