@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MeshManager.cpp">
+      <Filter>Resource Management</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Resource Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Graphical\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderObject.cpp">
+      <Filter>Graphical\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Graphical\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="SRenderer.cpp">
+      <Filter>Graphical\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderManager.cpp">
+      <Filter>Resource Management</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp">
+      <Filter>Resource Management</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsCircle.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsEngine.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsSquare.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugHud.cpp">
+      <Filter>Resource Management</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleEntity.cpp">
+      <Filter>Abstract/Base Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="SquareEntity.cpp">
+      <Filter>Abstract/Base Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="HUDElement.cpp">
+      <Filter>Abstract/Base Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Pong.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleMenu.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="gameIcon.c">
+      <Filter>Graphical\Header</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Abstract/Base Classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MeshManager.h">
+      <Filter>Resource Management</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Resource Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Abstract/Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="EventEmitter.h">
+      <Filter>Abstract/Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="EventListener.h">
+      <Filter>Abstract/Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Graphical\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderObject.h">
+      <Filter>Graphical\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Graphical\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SRenderer.h">
+      <Filter>Graphical\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderManager.h">
+      <Filter>Resource Management</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.h">
+      <Filter>Resource Management</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHandler.h">
+      <Filter>Resource Management</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsCircle.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsEngine.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsSquare.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeList.h">
+      <Filter>Abstract/Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="PongBat.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsObject.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugHud.h">
+      <Filter>Resource Management</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleEntity.h">
+      <Filter>Abstract/Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SquareEntity.h">
+      <Filter>Abstract/Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourcesManager.h">
+      <Filter>Resource Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>Abstract/Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="HUDElement.h">
+      <Filter>Abstract/Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>Abstract/Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Pong.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleMenu.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h" />
+    <ClInclude Include="PhysicsContactListener.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Abstract/Base Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="testFrag.glsl">
+      <Filter>Shader Source</Filter>
+    </None>
+    <None Include="testVert.glsl">
+      <Filter>Shader Source</Filter>
+    </None>
+    <None Include="Resources\Shaders\phongFrag.glsl">
+      <Filter>Shader Source</Filter>
+    </None>
+    <None Include="Resources\Shaders\phongVert.glsl">
+      <Filter>Shader Source</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Game Objects">
+      <UniqueIdentifier>{0cc66fff-0ef5-46ce-aa39-838acc6d0e03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Management">
+      <UniqueIdentifier>{32eb2a98-18cb-4c4e-bb7c-f384244b535c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Abstract/Base Classes">
+      <UniqueIdentifier>{8315de0c-ae86-46d8-b7be-4a0f0647b18e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical">
+      <UniqueIdentifier>{9cec9f51-37c5-4557-9226-33f67b0c4f38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical\Header">
+      <UniqueIdentifier>{27cc5dd6-09dc-460d-9312-ab84db860a4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical\cpp">
+      <UniqueIdentifier>{da63163c-dddb-485f-ab9d-df4b3273988c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Source">
+      <UniqueIdentifier>{8e3a262a-245d-4fb5-bcaa-418c853d783b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{9f75f10d-128f-40e6-be6a-628fcef44c82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

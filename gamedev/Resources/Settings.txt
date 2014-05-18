@@ -1,0 +1,3 @@
+resolution 1280 720
+fullscreen 0 
+vsync 0 
