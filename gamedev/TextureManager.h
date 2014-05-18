@@ -3,6 +3,8 @@
 #include "singleton.h"
 #include <map>
 #include <string>
+#include <SOIL.h>
+#include <gl\glew.h>
 
 #define TEXTURE_PATH "Resources\\Textures\\"
 

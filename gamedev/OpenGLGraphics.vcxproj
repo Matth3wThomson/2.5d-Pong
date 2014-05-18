@@ -52,7 +52,7 @@
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>nclgl.lib;Box2D.lib;glew32.lib;opengl32.lib;sfml-audio-d.lib;sfml-graphics-d.lib;sfml-main-d.lib;sfml-system-d.lib;sfml-window-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>SOIL.lib;Box2D.lib;glew32.lib;opengl32.lib;sfml-audio-d.lib;sfml-graphics-d.lib;sfml-main-d.lib;sfml-system-d.lib;sfml-window-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <EntryPointSymbol>
       </EntryPointSymbol>
       <SubSystem>Console</SubSystem>
@@ -69,7 +69,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalDependencies>nclgl.lib;Box2D-r.lib;glew32.lib;opengl32.lib;sfml-audio.lib;sfml-graphics.lib;sfml-main.lib;sfml-system.lib;sfml-window.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>Box2D-r.lib;glew32.lib;SOIL.lib;opengl32.lib;sfml-audio.lib;sfml-graphics.lib;sfml-main.lib;sfml-system.lib;sfml-window.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <SubSystem>Windows</SubSystem>
     </Link>
   </ItemDefinitionGroup>
@@ -80,6 +80,8 @@
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="gameIcon.c" />
     <ClCompile Include="HUDElement.cpp" />
+    <ClCompile Include="Matrix3.cpp" />
+    <ClCompile Include="Matrix4.cpp" />
     <ClCompile Include="PhysicsCircle.cpp" />
     <ClCompile Include="PhysicsSquare.cpp" />
     <ClCompile Include="Mesh.cpp" />
@@ -98,11 +100,14 @@
   <ItemGroup>
     <ClInclude Include="AudioManager.h" />
     <ClInclude Include="CircleEntity.h" />
+    <ClInclude Include="Common.h" />
     <ClInclude Include="DebugHud.h" />
     <ClInclude Include="FreeList.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="HUD.h" />
     <ClInclude Include="HUDElement.h" />
+    <ClInclude Include="Matrix3.h" />
+    <ClInclude Include="Matrix4.h" />
     <ClInclude Include="PhysicsCircle.h" />
     <ClInclude Include="PhysicsContactListener.h" />
     <ClInclude Include="PhysicsEngine.h" />
@@ -126,6 +131,9 @@
     <ClInclude Include="SRenderer.h" />
     <ClInclude Include="TextureManager.h" />
     <ClInclude Include="TitleMenu.h" />
+    <ClInclude Include="Vector2.h" />
+    <ClInclude Include="Vector3.h" />
+    <ClInclude Include="Vector4.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Shaders\phongFrag.glsl" />

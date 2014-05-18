@@ -59,6 +59,12 @@
     <ClCompile Include="Game.cpp">
       <Filter>Abstract/Base Classes</Filter>
     </ClCompile>
+    <ClCompile Include="Matrix3.cpp">
+      <Filter>Dependancies</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix4.cpp">
+      <Filter>Dependancies</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MeshManager.h">
@@ -149,6 +155,24 @@
     <ClInclude Include="Game.h">
       <Filter>Abstract/Base Classes</Filter>
     </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Dependancies</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix3.h">
+      <Filter>Dependancies</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix4.h">
+      <Filter>Dependancies</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Dependancies</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Dependancies</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4.h">
+      <Filter>Dependancies</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="testFrag.glsl">
@@ -188,6 +212,9 @@
     </Filter>
     <Filter Include="Physics">
       <UniqueIdentifier>{9f75f10d-128f-40e6-be6a-628fcef44c82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependancies">
+      <UniqueIdentifier>{8153685f-b320-4f5d-8527-5a8c5cc25869}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

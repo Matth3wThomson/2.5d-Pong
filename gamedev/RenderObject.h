@@ -1,9 +1,8 @@
 #pragma once
 
-#include "../nclgl/Matrix4.h"
+#include "Matrix4.h"
 #include "Mesh.h"
 #include "Shader.h"
-#include "../nclgl/OGLRenderer.h"
 
 /**
 * A Class to store objects related to the rendering of an object.

@@ -17,13 +17,18 @@ _-_-_-_-_-_-_-""  ""
 *//////////////////////////////////////////////////////////////////////////////
 #pragma once
 
-#include "../nclgl/OGLRenderer.h"
 #include <vector>
 #include <string>
 #include <fstream>
+#include "Vector3.h"
+#include "Vector2.h"
+#include "Vector4.h"
+#include "Common.h"
+#include <gl\glew.h>
 
 using std::ifstream;
 using std::string;
+using std::vector;
 
 //A handy enumerator, to determine which member of the bufferObject array
 //holds which data

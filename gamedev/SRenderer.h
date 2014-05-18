@@ -1,8 +1,8 @@
 #pragma once
 
 #include "RenderObject.h"
-#include "..\nclgl\Matrix4.h"
-#include "..\nclgl\Matrix3.h"
+#include "Matrix4.h"
+#include "Matrix3.h"
 
 struct Light {
 	Vector3 position;

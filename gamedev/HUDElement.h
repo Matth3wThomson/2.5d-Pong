@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../nclgl/Vector2.h"
+#include "Vector2.h"
 #include "SRenderer.h"
 #include "MeshManager.h"
 

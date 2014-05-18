@@ -154,5 +154,8 @@ public:
 		o << "Vector2(" << v.x << "," << v.y << ")";
 		return o;
 	}
-};
 
+	inline Vector2 operator*(const float& rhs) const {
+		return Vector2(x * rhs, y * rhs);
+	}
+};

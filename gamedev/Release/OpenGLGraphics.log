@@ -1,0 +1,47 @@
+﻿Build started 18/05/2014 10:47:27.
+     1>Project "D:\Documents\DropBox\Dropbox\GitHub\Matt Thomson GameDev\gamedev\OpenGLGraphics.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\MT Game.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Documents\DropBox\Dropbox\GitHub\Matt Thomson GameDev\gamedev\Release\MT Game.exe" /NOLOGO "Box2D-r.lib" glew32.lib SOIL.lib opengl32.lib "sfml-audio.lib" "sfml-graphics.lib" "sfml-main.lib" "sfml-system.lib" "sfml-window.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\MT Game.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Documents\DropBox\Dropbox\GitHub\Matt Thomson GameDev\gamedev\Release\MT Game.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Documents\DropBox\Dropbox\GitHub\Matt Thomson GameDev\gamedev\Release\MT Game.lib" /MACHINE:X86 Release\AudioManager.obj
+         Release\CircleEntity.obj
+         Release\DebugHud.obj
+         Release\Game.obj
+         Release\gameIcon.obj
+         Release\HUDElement.obj
+         Release\Matrix3.obj
+         Release\Matrix4.obj
+         Release\PhysicsCircle.obj
+         Release\PhysicsSquare.obj
+         Release\Mesh.obj
+         Release\MeshManager.obj
+         Release\PhysicsEngine.obj
+         Release\Pong.obj
+         Release\RenderObject.obj
+         Release\main.obj
+         Release\Shader.obj
+         Release\ShaderManager.obj
+         Release\SquareEntity.obj
+         Release\SRenderer.obj
+         Release\TextureManager.obj
+         Release\TitleMenu.obj
+         Generating code
+         Finished generating code
+     1>SOIL.lib(SOIL.obj) : warning LNK4204: 'D:\Documents\DropBox\Dropbox\GitHub\Matt Thomson GameDev\gamedev\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>SOIL.lib(stb_image_aug.obj) : warning LNK4204: 'D:\Documents\DropBox\Dropbox\GitHub\Matt Thomson GameDev\gamedev\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>SOIL.lib(image_helper.obj) : warning LNK4204: 'D:\Documents\DropBox\Dropbox\GitHub\Matt Thomson GameDev\gamedev\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>SOIL.lib(image_DXT.obj) : warning LNK4204: 'D:\Documents\DropBox\Dropbox\GitHub\Matt Thomson GameDev\gamedev\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+         OpenGLGraphics.vcxproj -> D:\Documents\DropBox\Dropbox\GitHub\Matt Thomson GameDev\gamedev\Release\MT Game.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Documents\DropBox\Dropbox\GitHub\Matt Thomson GameDev\gamedev\Release\MT Game.exe;#1" /manifest "Release\MT Game.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\MT Game.unsuccessfulbuild".
+         Touching "Release\MT Game.lastbuildstate".
+     1>Done Building Project "D:\Documents\DropBox\Dropbox\GitHub\Matt Thomson GameDev\gamedev\OpenGLGraphics.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.78

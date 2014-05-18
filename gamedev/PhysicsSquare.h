@@ -2,8 +2,8 @@
 
 #include "PhysicsEngine.h"
 #include "PhysicsObject.h"
-#include "..\nclgl\Vector3.h"
-#include "..\nclgl\Common.h"
+#include "Vector3.h"
+#include "Common.h"
 
 #include <Box2D\Box2D.h>
 
@@ -24,7 +24,6 @@ public:
 
 	inline float GetWidth(){ return w; };
 	inline float GetHeight(){ return h; };
-	/*inline void SetWidth(){ }*/
 
 protected:
 

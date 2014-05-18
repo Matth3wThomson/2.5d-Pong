@@ -1,9 +1,9 @@
 #pragma once
 
 #include <Box2D\Box2D.h>
-#include "..\nclgl\Vector2.h"
-#include "..\nclgl\Vector3.h"
-#include "..\nclgl\Common.h"
+#include "Vector2.h"
+#include "Vector3.h"
+#include "Common.h"
 
 /**
 * An abstract class to wrap box2d body methods for all possible subclasses.

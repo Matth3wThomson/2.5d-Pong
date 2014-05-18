@@ -1,8 +1,8 @@
 #pragma once
 
 #include "TextureManager.h"
-#include "../SOIL/SOIL.h"
-#include "../GLEW/include/GL/glew.h"
+//#include "../SOIL/SOIL.h"
+//#include "../GLEW/include/GL/glew.h"
 
 
 TextureManager::TextureManager(void)
@@ -45,8 +45,6 @@ unsigned int TextureManager::AddTexture(const string &filename){
 	//Else load it in and add it to the mapping
 	tex = SOIL_load_OGL_texture((TEXTURE_PATH + filename).c_str(),
 		SOIL_LOAD_AUTO, SOIL_CREATE_NEW_ID, SOIL_FLAG_INVERT_Y);
-
-
 
 	textures.insert(std::pair<string, unsigned int>(filename, tex));
 

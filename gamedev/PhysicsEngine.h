@@ -6,9 +6,9 @@
 
 #include <list>
 
-#include "..\nclgl\Vector2.h"
-#include "..\nclgl\Common.h"
-#include "..\nclgl\Matrix4.h"
+#include "Vector2.h"
+#include "Common.h"
+#include "Matrix4.h"
 
 
 #include "SRenderer.h"
