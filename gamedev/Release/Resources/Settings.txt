@@ -1,3 +1,0 @@
-resolution 1920 1080
-fullscreen 1 
-vsync 1 
