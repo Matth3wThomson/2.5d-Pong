@@ -2,6 +2,10 @@ This project is the game I created for my Game Development module. The focus of 
 
 All work found herein is property of Matthew Thomson. You are permitted to download and change the code as you wish, but all credit belongs to the owner.
 
+It requires:
+
+  OpenGL 3.3+
+
 To fork this repo you will need the following libraries:
 
 Box2D
